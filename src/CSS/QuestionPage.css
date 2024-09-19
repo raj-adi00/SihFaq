@@ -1,0 +1,39 @@
+.question-page {
+  background: rgba(255, 255, 255, 0.2);
+  /* Semi-transparent white background */
+  color: white;
+  /* White text for better contrast on dark or glassy backgrounds */
+  padding: 20px;
+  width: 90vw;
+  margin: 20px auto;
+  border-radius: 10px;
+  /* Rounded corners for a softer look */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /* Light shadow for depth */
+  backdrop-filter: blur(10px);
+  /* Frosted glass effect */
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  /* Optional border for a glassy look */
+}
+
+.question {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.question-image {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.answer {
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+.error {
+  color: red;
+  text-align: center;
+  margin-top: 20px;
+}
