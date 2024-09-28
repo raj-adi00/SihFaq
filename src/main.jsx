@@ -5,6 +5,7 @@ import './index.css';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Home from './Home.jsx';
 import RandomQuestionPage from './RandomQuestionPage.jsx';
+import Contacts from './Contacts.jsx';
 
 const router = createBrowserRouter([
   {
@@ -17,6 +18,9 @@ const router = createBrowserRouter([
       }, {
         path: "/question/:index",
         element: <RandomQuestionPage />
+      }, {
+        path: "/contacts",
+        element: <Contacts />
       }
       // Add more routes here for different pages
     ],

@@ -8,8 +8,9 @@ const Navbar = () => {
             <div className="container flex items-center justify-evenly">
                 <h1 className="logo">JUSTICE LEAGUE</h1>
                 <nav>
-                    <ul>
-                        <li><a href="/">Home</a></li>
+                    <ul className='flex gap-4 flex-wrap'>
+                        <Link to="/">Home</Link>
+                        <Link to="/contacts">Contact Us</Link>
                     </ul>
                 </nav>
             </div>
