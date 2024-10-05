@@ -1,6 +1,6 @@
 import React from 'react';
 import './CSS/Home.css';
-import Navbar from './Navbar';
+// import Navbar from './Navbar';
 import query from './Questions.json';
 import QuestionCard from './QuestionCard';
 
