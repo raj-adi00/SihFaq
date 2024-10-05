@@ -6,7 +6,7 @@ const QuestionCard = ({ question, index, answer, img }) => {
   console.log(question)
   return (
     <Link to={`/question/${index}`}>
-      <div className="question-card">
+      <div className="question-card px-5 py-3">
         <h4>{question}</h4>
       </div>
     </Link>
