@@ -6,7 +6,7 @@
 
   /* White text for better contrast on dark or glassy backgrounds */
   width: 90vw;
-  margin: 60px auto;
+  /*margin: 60px auto;*/
   border-radius: 10px;
   /* Rounded corners for a softer look */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);

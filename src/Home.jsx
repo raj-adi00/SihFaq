@@ -6,7 +6,7 @@ import QuestionCard from './QuestionCard';
 
 function Home() {
     return (
-        <div className='mt-20'>
+        <div className='mt-24'>
             {query.map((questions, index) => (
                 <QuestionCard key={index} question={questions.question} index={index} />
             ))}
