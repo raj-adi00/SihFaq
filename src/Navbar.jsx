@@ -11,7 +11,7 @@ const Navbar = () => {
                     <img src= {Logo} height={28} width={28}/>&nbsp;JUSTICE LEAGUE
                 </h1>
                 <nav>
-                    <ul className='flex justify-between min-[520px]::gap-11 lg:gap-20 gap-4 text-lg min-[520px]:text-xl'>
+                    <ul className='flex justify-between min-[520px]:gap-11 lg:gap-20 gap-4 text-base min-[520px]:text-xl'>
                         <li><Link to="/">Home</Link></li>
                         <li><Link to="/contacts">Contact Us</Link></li>
                     </ul>
