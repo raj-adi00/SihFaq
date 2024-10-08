@@ -17,7 +17,7 @@ const RandomQuestionPage = () => {
     return (
         <div className="question-page mt-20 sm:mt-24 mx-auto p-5 md:p-8">
             <h1 className="question mb-10 mt-2">{question.question}</h1>
-            {question.img && <img src={question.img} alt="Question related" className="question-image m-auto mt-3" />}
+            {question.img && <img src={question.img} alt="Question related" className="question-image mx-auto mt-10" />}
             <p className="answer mt-8" dangerouslySetInnerHTML={{__html: question.answer}}></p>
         </div>
     );
