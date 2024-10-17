@@ -13,7 +13,7 @@ function Contacts() {
             <p className="mb-2">For general questions about NIRMAS or our services, please contact us at:</p>
             <p className="mb-4">
               <strong>Email:</strong> <a href="mailto:nirmas1743@gmail.com"
-                                         className="text-blue-400 hover:underline">support@nirmas.com</a><br/>
+                                         className="text-blue-400 hover:underline">nirmas1743@gmail.com</a><br/>
               <strong>Phone:</strong> <span className="text-gray-300">+91 879-701-9446</span>
             </p>
 
@@ -22,7 +22,7 @@ function Contacts() {
               team is here to help:</p>
             <p className="mb-4">
               <strong>Email:</strong> <a href="mailto:nirmas1743@gmail.com"
-                                         className="text-blue-400 hover:underline">support@nirmas.com</a><br/>
+                                         className="text-blue-400 hover:underline">nirmas1743@gmail.com</a><br/>
               <strong>Phone:</strong> <span className="text-gray-300">+91 879-701-9446</span>
             </p>
 
